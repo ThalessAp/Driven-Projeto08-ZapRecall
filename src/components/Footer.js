@@ -1,10 +1,18 @@
+export default function Footer(footer, anwser) {
 
 
-export default function Footer() {
+
   return (
     <>
       <div className="footer">
-          0/4 CONCLUIDOS
+        0/8 CONCLUIDOS
+        
+      </div>
+      <div className="emojis">
+        {footer.map((anwser, index) => (
+          <span key={index}>{anwser}</span>
+        ))}
+
       </div>
 
     </>

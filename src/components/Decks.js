@@ -1,3 +1,5 @@
+
+//Para o bonus
 export default function Decks() {
 	const decks = [
 		{
@@ -112,22 +114,15 @@ export default function Decks() {
 			],
 		},
 	];
+	return (decks[0]);
 
-	return (
-		<>
-			<h1>Meus Decks</h1>
-			{decks.map((deck) => (
-				<h2>{deck.title}</h2>
-			))}
-		</>
-	);
+	// return (
+	// 	<>
+	// 		<h3>Meus Decks</h3>
+	// 		{decks.map((deck) => (
+	// 			<h2>{deck.title}</h2>
+	// 		))}
+	// 	</>
+	// );
 }
 
-function Deck() {
-	return (
-		<>
-			
-            
-		</>
-	);
-}
